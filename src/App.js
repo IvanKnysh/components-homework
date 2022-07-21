@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Film from "./components/Film";
+import poster from "./images/poster.jpeg";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Film
+        name="Джон Уик"
+        producer="Чад Стахелски"
+        year="2014"
+        company="Thunder Road Pictures 87Eleven MJW Films DefyNite Films"
+        poster={poster}
+      />
+    </>
   );
 }
 
