@@ -1,6 +1,6 @@
 import Film from "./components/Film";
 import Persone from "./components/Persone";
-
+import Time from "./components/Time";
 import poster from "./images/poster.jpeg";
 import img from "./images/photo.jpeg";
 
@@ -24,6 +24,8 @@ function App() {
         skills="React, JS, HTML, CSS, Gulp"
         img={img}
       />
+      <hr/>
+      <Time />
     </>
   );
 }
